@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luanzin - O Fera do Yu-Gi-Oh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+
+      .hero-section {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.1)
+          ),
+          url("/assets/bg-luan.jpg");
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        height: 100vh;
+        position: relative;
+        background-color: #d4dde5;
+      }
+
+      .nav-pill {
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="hero-section flex flex-col">
+      <!-- Navigation -->
+      <div class="container mx-auto pt-4 px-4">
+        <nav
+          class="nav-pill rounded-full px-10 py-2 flex items-center justify-between max-w-xl mx-auto"
+        >
+          <a href="#" class="text-gray-800 font-medium">ESTUDIO</a>
+          <a href="#" class="text-gray-800 font-medium">PROJETOS</a>
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center"
+          >
+            <img
+              src="/assets/bg-luan.jpg"
+              alt="Profile"
+              class="w-full h-full object-cover"
+            />
+          </a>
+          <a href="#" class="text-gray-800 font-medium">SOBRE</a>
+          <a href="#" class="text-gray-800 font-medium flex items-center">
+            CURRÍCULO
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-between h-full px-4 pb-16"
+      >
+        <!-- Left side with image -->
+        <div class="md:w-1/2 relative">
+          <img
+            src="/assets/bg-luan.jpg"
+            alt="Adarsh in mountains"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+
+        <!-- Right side with text -->
+        <div class="md:w-1/2 mt-8 md:mt-0 md:pl-12 h-0">
+          <h1 class="text-2xl font-bold mb-4 text-gray-600">
+            Fala meu consagrado, sou o Luanpdd 🙏
+          </h1>
+
+          <div class="flex flex-wrap gap-4 mb-8">
+            <div class="flex items-center">
+              <span class="mr-2">👨‍💻</span>
+              <span class="font-medium text-md text-gray-600">Programador</span>
+            </div>
+            <div class="flex items-center">
+              <span class="mr-2">🎵</span>
+              <span class="font-medium text-md text-gray-600">DJ</span>
+            </div>
+            <div class="flex items-center">
+              <span class="mr-2">✨</span>
+              <span class="font-medium text-md text-gray-600">Mestre de Yu-Gi-Oh</span>
+            </div>
+          </div>
+
+          <p class="text-md mb-2 opacity-50">A melhor experiência para</p>
+
+          <div class="flex flex-wrap gap-6 items-center">
+            <div class="logo-container">
+              <div class="text-md font-bold text-pink-600">plum</div>
+            </div>
+            <div class="logo-container">
+              <div class="text-sm font-bold">DELHIVERY</div>
+            </div>
+            <div class="logo-container">
+              <div class="text-md font-bold flex items-center">
+                <span class="mr-1 text-gray-800">🔍</span>
+                lenskart
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
